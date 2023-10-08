@@ -33,6 +33,7 @@ function FileUploadComponent() {
             aria-describedby="file_input_help"
             id="file_input"
             type="file"
+            accept="image/*"
             onChange={handleFileChange}
           />
         </>
